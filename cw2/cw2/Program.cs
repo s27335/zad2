@@ -19,9 +19,10 @@
         for (int i = 0; i < tab.Length; i++)
         {
             sum += tab[i];
+            double suma = 0;
         }
-        
-        return sum/tab.Length;   
+
+        return sum / tab.Length;
     }
 
     public static int Max(int[] tab)
