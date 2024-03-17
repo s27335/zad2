@@ -18,6 +18,7 @@
         double suma=0;
         for (int j = 0; j < tab.Length; j++)
         {
+            
             suma += tab[j];
         }
         
