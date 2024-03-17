@@ -6,6 +6,9 @@
         Console.WriteLine("Modification1");
         Console.WriteLine("Modification2");
         Console.WriteLine("Modification3");
+
+        int[] tab = { 1, 6, 7, 4, 3, 2, 5, 6 };
+        Console.Write(Avg(tab));
     }
 
     
