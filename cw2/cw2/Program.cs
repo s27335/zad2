@@ -15,13 +15,13 @@
     
     public static double Avg(int[] tab)
     {
-        double suma=0;
+        double sum=0;
         for (int i = 0; i < tab.Length; i++)
         {
-            suma += tab[i];
+            sum += tab[i];
         }
         
-        return suma/tab.Length;   
+        return sum/tab.Length;   
     }
 
     public static int Max(int[] tab)
