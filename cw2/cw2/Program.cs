@@ -9,9 +9,15 @@
     }
 
     
-    public static double Avg()
+    public static double Avg(int[] tab)
     {
-        return 0;
+        double suma=0;
+        for (int i = 0; i < tab.Length; i++)
+        {
+            suma += tab[i];
+        }
+        
+        return suma/tab.Length;   
     }
 
 }
