@@ -16,9 +16,9 @@
     public static double Avg(int[] tab)
     {
         double suma=0;
-        for (int i = 0; i < tab.Length; i++)
+        for (int j = 0; j < tab.Length; j++)
         {
-            suma += tab[i];
+            suma += tab[j];
         }
         
         return suma/tab.Length;   
